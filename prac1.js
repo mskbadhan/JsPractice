@@ -1,26 +1,13 @@
 //Main Description will be found in the README 
-
-//We can use this method 
-let count = document.querySelector("#btnResult").value;
-document.querySelector("#btnResult").onclick = 
-function myFunc () {
-
- count++;
-  document.getElementById ("theResult").textContent = "You have clicked:" + `${count}`
- console.log (count);
-  
-  
-  }
-
-  //OR We can use Event Listener 
-
-let val = document.getElementById("btnResult").value;
-let myBtn = document.querySelector("#btnResult");
-myBtn.addEventListener("click", () => {
-  console.log (val);
-  val = Number(val)+1;
-  console.log (typeof(val));
-  document.querySelector(".theResult").textContent = `You have clicked: ${val}`;
-}
-
-)
+let addMoneyBtn = document.querySelector("#addMoneyBtn");
+let donateTKBtn = document.querySelector("#donateTKBtn");
+let donateMoney = document.getElementById("donateTK").value;
+addMoneyBtn.addEventListener("click", ()=>{
+  let mainBalance = document.querySelector(".mainBalance").textContent;
+      mainBalance = Number(mainBalance);
+  let addMoney = document.getElementById("addMoney").value;
+      addMoney = Number(addMoney);
+    ADD = mainBalance+addMoney;
+   let finalBalance = document.querySelector(".mainBalance").textContent = `${ADD}`;
+   finalBalance;
+})

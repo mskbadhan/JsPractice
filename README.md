@@ -94,3 +94,28 @@ myBtn.addEventListener("click", () => {
 }
 )
 ```
+
+#### My own wallet System
+
+<body>
+<div style="left: auto; text-align: center; color: rgba(66, 221, 66, 0.886); font-size: 50px;">My Own Wallet</div>
+My Balance: <p class="mainBalance">1000000</p>
+Add Money : <input type="number" name="addMoney" id="addMoney" value=100>&nbsp;<button id="addMoneyBtn">Add Money</button><p></p>
+Donate TK : <input type="number" name="donateTK" id="donateTK" value=>&nbsp;<button id="donateTKBtn">Donate TK</button>
+<p id="result"></p>
+</body>
+<script>
+let addMoneyBtn = document.querySelector("#addMoneyBtn");
+let donateTKBtn = document.querySelector("#donateTKBtn");
+let donateMoney = document.getElementById("donateTK").value;
+addMoneyBtn.addEventListener("click", ()=>{
+  let mainBalance = document.querySelector(".mainBalance").textContent;
+      mainBalance = Number(mainBalance);
+  let addMoney = document.getElementById("addMoney").value;
+      addMoney = Number(addMoney);
+    ADD = mainBalance+addMoney;
+   let finalBalance = document.querySelector(".mainBalance").textContent = `${ADD}`;
+   finalBalance;
+})
+
+</script>
