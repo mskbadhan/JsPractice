@@ -96,6 +96,7 @@ myBtn.addEventListener("click", () => {
 ```
 
 #### My own wallet System
+*This is a simple practice. With these simple code, one can practice element and Query catch and change values inside HTML. I preferred Querryselector to getElement. And one thing, disgusted though, that is: I needed to call vars with let in event listeners or functions, without this it doesnt work. Will see next js or react, if they help*
 
 ```ruby
 <body style="width:70%; margin:50px auto; rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,201,119,1) 0%, rgba(0,212,255,1) 100%); font-size: 30px;">
