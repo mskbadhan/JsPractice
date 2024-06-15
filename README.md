@@ -1,3 +1,6 @@
+## Exploring JS after 6 Years. 
+*After a long time, exploring JS. To be true, I forgot almost everything. I loved back-end and then CMS but forgot the real beauty of JS. In this vacation of Eid, I am just trying the lost treasure buried in my mind. So here is developmental note for a time being...*
+
 #### getting a single alert with button clicked
 ```ruby
 document.getElementById("bipul").onclick = function myFunc() {
@@ -70,7 +73,7 @@ let count = document.querySelector("#btnResult").value;
 document.querySelector("#btnResult").onclick = 
 function myFunc () {
  count++;
- 
+
  //This is we can not get the text content by calling document.querySelector(".theResult").textContent outside the function
   document.getElementById ("theResult").textContent = "You have clicked:" + `${count}`
  console.log (count);
