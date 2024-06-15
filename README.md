@@ -40,3 +40,24 @@ const myFunc1 = (c, d) => {
 const result1 = myFunc1 (5, 6);
 console.log (result1); 
 ```
+
+#### Getting Input value in the paragraph section of a page
+```ruby
+
+<body>
+    Input your data: 
+    <input type="text" name="Input here" id="myInput" placeholder="Enter your data here">
+    <button id="btnResult">Send Result</button>
+    <p id="theResult"></p>
+</body>
+<script>
+document.querySelector("#btnResult").onclick = 
+function myFunc () {
+   let result = document.getElementById ('myInput').value;
+   document.getElementById ("theResult").innerHTML = result;
+  
+  console.log (result);
+}
+
+</script>
+```
