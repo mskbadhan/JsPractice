@@ -55,8 +55,8 @@ document.querySelector("#btnResult").onclick =
 function myFunc () {
    let result = document.getElementById ('myInput').value;
    document.getElementById ("theResult").innerHTML = result;
-  
-  console.log (result);
+  return result; 
+  //console.log (result);
 }
 
 </script>
