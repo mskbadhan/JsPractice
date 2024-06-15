@@ -1,8 +1,4 @@
-// document.querySelector("#bipul").onclick = function myFunc() {
-//    const strlength = document.querySelector("#para").innerHTML;
-//    console.log (strlength.length); 
-// }
-
+//Main Description will be found in the README 
 // passing the variables like php
 function myFunc (a, b) {
    return a+b;
