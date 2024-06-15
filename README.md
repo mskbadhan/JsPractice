@@ -1,4 +1,4 @@
-## -------------Exploring JS after 6 Years-----------------
+#                            Exploring JS after 6 Years
 *After a long time, exploring JS. To be true, I forgot almost everything. I loved back-end and then CMS but forgot the real beauty of JS. In this vacation of Eid, I am just trying the lost treasure buried in my mind. So followings are the developmental note for a time being...*
 
 #### getting a single alert with button clicked
