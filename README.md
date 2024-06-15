@@ -97,6 +97,7 @@ myBtn.addEventListener("click", () => {
 
 #### My own wallet System
 
+```ruby
 <body>
 <div style="left: auto; text-align: center; color: rgba(66, 221, 66, 0.886); font-size: 50px;">My Own Wallet</div>
 My Balance: <p class="mainBalance">1000000</p>
@@ -119,3 +120,4 @@ addMoneyBtn.addEventListener("click", ()=>{
 })
 
 </script>
+```
