@@ -43,7 +43,12 @@ const myFunc1 = (c, d) => {
 const result1 = myFunc1 (5, 6);
 console.log (result1); 
 ```
+#### I can hide a section or class with JS
+```ruby
+let thatSection = document.querySelector(".class or #id");
+thatSection.style = "display: none/block";
 
+ ```
 #### Getting Input value in the paragraph section of a page
 ```ruby
 
