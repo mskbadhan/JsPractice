@@ -43,6 +43,29 @@ const myFunc1 = (c, d) => {
 const result1 = myFunc1 (5, 6);
 console.log (result1); 
 ```
+
+#### Function in a function and passing the value with Arguments and getting value with the parameters
+```ruby
+let a = 10;
+let b = 7;
+function myFunc(parameter) { 
+  //Here parameter grabs the value sent from the argument value and sends it inside to the function;
+  parameter += 3;  
+  // it is equal to the parameter = parameter +3; 
+  myFunc2(parameter); 
+  //then the parameter value that is added by 3 is sent to the myFunc2 as the parameter for that function; 
+   
+}
+function myFunc2(parameter2){
+  parameter2 += 2
+  console.log (parameter2);
+}
+//the argument need not to be same name as the Parameter. I can pass any variable or value. 
+myFunc(a);  
+
+myFunc2(b);
+```
+
 #### I can hide a section or class with JS
 ```ruby
 let thatSection = document.querySelector(".class or #id");
