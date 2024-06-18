@@ -65,7 +65,22 @@ myFunc(a);
 
 myFunc2(b);
 ```
-
+*The same result with arrow function: the code would be like this:*
+```ruby
+let a = 10;
+let b = 7;
+const myFunc = (parameter) => { 
+  parameter += 3; 
+  myFunc2(parameter); 
+   
+}
+const myFunc2 = (parameter2) => {
+  parameter2 += 2
+  console.log (parameter2);
+}
+myFunc(a); 
+myFunc2(b);
+```
 #### I can hide a section or class with JS
 ```ruby
 let thatSection = document.querySelector(".class or #id");
