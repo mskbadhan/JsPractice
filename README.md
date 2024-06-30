@@ -7,6 +7,19 @@ document.getElementById("bipul").onclick = function myFunc() {
     alert ("Hey This is me!");
 } 
 ```
+#### Calling a function with a variable
+```ruby
+<p id="demo"></p>
+
+<script>
+let x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
+</script>
+```
 
 #### getting the same result with querySelector, mind to put # or .
 ``` ruby
